@@ -16,5 +16,5 @@ export const educations = [
     title: "Secondary School Certificate",
     duration: "2008 - 2018",
     institution: "Baitus Saif Islamia Madrasah",
-  }
-]
+  },
+];

@@ -11,6 +11,20 @@ import ContactForm from './contact-form';
 
 function ContactSection() {
   return (
+
+    
+    <div
+    id="blogs"
+    className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]"
+  >
+    <div className="w-[100px] h-[100px] bg-violet-100 rounded-full absolute top-6 left-[42%] translate-x-1/2 filter blur-3xl  opacity-20"></div>
+  
+    <div className="flex justify-center -translate-y-[1px]">
+      <div className="w-3/4">
+        <div className="h-[1px] bg-gradient-to-r from-transparent via-violet-500 to-transparent  w-full" />
+      </div>
+    </div>
+  
     <div id="contact" className="my-12 lg:my-16 relative mt-24 text-white">
       <div className="hidden lg:flex flex-col items-center absolute top-24 -right-8">
         <span className="bg-[#1a1443] w-fit text-white rotate-90 p-2 px-5 text-xl rounded-md">
@@ -20,7 +34,7 @@ function ContactSection() {
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
         <ContactForm />
-
+  
         <div className="lg:w-3/4 ">
           <div className="flex flex-col gap-5 lg:gap-9">
             <p className="text-sm md:text-xl flex items-center gap-3">
@@ -84,6 +98,8 @@ function ContactSection() {
         </div>
       </div>
     </div>
+  </div>
+  
   );
 };
 

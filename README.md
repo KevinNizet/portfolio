@@ -124,6 +124,6 @@ NEXT_PUBLIC_EMAILJS_PUBLIC_KEY =
 
 ---
 
-# Credits :bulb:
+# Credits :busts_in_silhouette:
 
 This projects is freely inspired from @Abu Said open source project

@@ -12,7 +12,6 @@ export const skillsData = [
   "Tailwind",
   "MaterialUI",
   "Python",
-  "Selenium",
   "Graphql",
   "MySQL",
   "PostgreSQL",

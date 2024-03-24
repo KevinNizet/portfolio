@@ -4,10 +4,8 @@ import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
-import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
-import { SiLeetcode } from "react-icons/si";
 
 function HeroSection() {
   return (
@@ -99,9 +97,9 @@ function HeroSection() {
                 <span className="text-gray-400">{`['`}</span>
                 <span className="text-amber-300">React</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">NextJS</span>
-                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Flutter</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">NextJS</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Express</span>
                 <span className="text-gray-400">{"', '"}</span>
@@ -112,6 +110,11 @@ function HeroSection() {
                 <span className="text-amber-300">Docker</span>
 
                 <span className="text-gray-400">{"'],"}</span>
+              </div>
+              <div>
+                <span className="ml-4 lg:ml-8 mr-2 text-white">fullStack:</span>
+                <span className="text-orange-400">true</span>
+                <span className="text-gray-400">,</span>
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">

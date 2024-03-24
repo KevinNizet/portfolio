@@ -6,13 +6,11 @@ This portfolio showcases a selection of my projects and achievements in software
 
 ### How to reach me :memo:
 
-Email:  
-[kevin.nizet@gmail.com]
+Email : [kevin.nizet@gmail.com](kevin.nizet@gmail.com)
 
-LinkedIn:  
-[https://www.linkedin.com/in/kevinnizet/]
+LinkedIn : [link](https://www.linkedin.com/in/kevinnizet)
 
-Feel free to explore my projects above and reach out to me for any collaboration or professional opportunities!
+Feel free to explore my projects above and reach out to me for any collaboration or professional opportunities !
 
 ---
 

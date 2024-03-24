@@ -1,6 +1,15 @@
-# Developer Portfolio
+# Portfolio de Kévin Nizet
 
-### Are you struggling to create a professional portfolio website? Look no further! You can use the Developer Portfolio template and create your very own personalized portfolio today! My website is designed to be user-friendly and easily customizable, making it perfect for both developers and freelancers.
+### Welcome to my development portfolio !
+
+This portfolio showcases a selection of my projects and achievements in software development. I'm passionate about creating innovative and functional solutions, and this portfolio reflects my journey and skills in development.
+
+### How to reach me :memo:
+
+Email: [kevin.nizet@gmail.com]
+LinkedIn: [https://www.linkedin.com/in/kevinnizet/]
+
+Feel free to explore my projects above and reach out to me for any collaboration or professional opportunities!
 
 ---
 
@@ -8,7 +17,9 @@
 
 ![](./public/image/screen.png)
 
-## View live preview [here](https://abusaid.netlify.app/).
+//TODO: add production link when available
+
+<!-- ## View live preview [here](https://knizet.netlify.app/). -->
 
 ---
 
@@ -31,7 +42,6 @@
 - SKILLS
 - PROJECTS
 - EDUCATION
-- BLOG
 - CONTACTS
 
 ---
@@ -59,9 +69,9 @@ git --version
 To Fork the repo click on the fork button at the top right of the page. Once the repo is forked open your terminal and perform the following commands
 
 ```
-git clone https://github.com/<YOUR GITHUB USERNAME>/developer-portfolio.git
+git clone https://github.com/<YOUR GITHUB USERNAME>/portfolio.git
 
-cd developer-portfolio
+cd portfolio
 ```
 
 ### Install packages from the root directory
@@ -96,34 +106,6 @@ NEXT_PUBLIC_EMAILJS_TEMPLATE_ID =
 NEXT_PUBLIC_EMAILJS_PUBLIC_KEY =
 ```
 
-### Then, Customize data in the `utils/data` [folder](https://github.com/said7388/developer-portfolio/tree/main/utils/data).
-
-Eg:
-
-```javascript
-export const personalData = {
-  name: "ABU SAID",
-  profile: "/profile.png",
-  designation: "Full-Stack Software Developer",
-  description: "My name is ABU SAID....",
-  email: "abusaid7388@gmail.com",
-  phone: "+8801608797655",
-  address: "Dhaka, Bangladesh",
-  github: "https://github.com/said7388",
-  facebook: "https://www.facebook.com/abusaid.riyaz/",
-  linkedIn: "https://www.linkedin.com/in/abu-said-bd/",
-  twitter: "https://twitter.com/said7388",
-  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
-  resume: "...",
-};
-```
-
-`devUsername` Used for fetching blog from `dev.to`.
-
----
-
 ---
 
 # Packages Used :package:
@@ -140,3 +122,7 @@ export const personalData = {
 |    tailwindcss     |
 
 ---
+
+# Credits :bulb:
+
+This projects is freely inspired from @Abu Said

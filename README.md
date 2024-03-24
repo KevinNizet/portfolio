@@ -1,4 +1,4 @@
-# Portfolio de Kévin Nizet
+# Kévin Nizet's Portfolio
 
 ### Welcome to my development portfolio !
 
@@ -6,8 +6,11 @@ This portfolio showcases a selection of my projects and achievements in software
 
 ### How to reach me :memo:
 
-Email: [kevin.nizet@gmail.com]
-LinkedIn: [https://www.linkedin.com/in/kevinnizet/]
+Email:  
+[kevin.nizet@gmail.com]
+
+LinkedIn:  
+[https://www.linkedin.com/in/kevinnizet/]
 
 Feel free to explore my projects above and reach out to me for any collaboration or professional opportunities!
 
@@ -125,4 +128,4 @@ NEXT_PUBLIC_EMAILJS_PUBLIC_KEY =
 
 # Credits :bulb:
 
-This projects is freely inspired from @Abu Said
+This projects is freely inspired from @Abu Said open source project

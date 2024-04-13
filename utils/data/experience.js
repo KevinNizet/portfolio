@@ -1,20 +1,17 @@
 export const experiences = [
   {
     id: 1,
-    title: 'Software Engineer I',
-    company: "Teton Private Ltd.",
-    duration: "(Jan 2022 - Present)"
+    title: "Développeur d'applications mobiles",
+    company: "Général Transmissions",
+    localisation: "Les Herbiers",
+    duration: "Septembre. 2023 - Janvier 2025",
   },
   {
     id: 2,
-    title: "FullStack Developer",
-    company: "Fiverr (freelance)",
-    duration: "(Jun 2021 - Jan 2022)"
+    title: "Chef de projet en santé",
+    company:
+      "Agence régionale de santé, CHU de Nantes, Laboratoires Pierre Fabre ",
+    localisation: "Nantes et Toulouse",
+    duration: "Février 2016 - Janvier 2023",
   },
-  {
-    id: 3,
-    title: "Self Employed",
-    company: "Code and build something in everyday.",
-    duration: "(Jan 2018 - Present)"
-  }
-]
+];

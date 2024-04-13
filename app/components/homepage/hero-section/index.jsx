@@ -99,16 +99,21 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Flutter</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">NextJS</span>
+                <span className="text-amber-300">JavaScript</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Express</span>
+                <span className="text-amber-300">Dart</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">NodeJs</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">NextJs</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">MySql</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">GraphQL</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Docker</span>
-
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">GitLab</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
               <div>

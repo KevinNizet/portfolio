@@ -6,9 +6,7 @@ function Navbar() {
     <nav className="bg-transparent">
       <div className="flex items-center justify-between py-5">
         <div className="flex flex-shrink-0 items-center">
-          <Link href="/" className=" text-[#16f2b3] text-3xl font-bold">
-            Kévin Nizet{" "}
-          </Link>
+          <h1 className=" text-[#16f2b3] text-3xl font-bold">Portfolio </h1>
         </div>
 
         <ul
@@ -21,7 +19,7 @@ function Navbar() {
               href="#about"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-                ABOUT
+                À PROPOS
               </div>
             </a>
           </li>
@@ -31,7 +29,7 @@ function Navbar() {
               href="#experience"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-                EXPERIENCE
+                EXPÉRIENCES
               </div>
             </a>
           </li>
@@ -41,7 +39,7 @@ function Navbar() {
               href="#skills"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-                SKILLS
+                COMPÉTENCES
               </div>
             </a>
           </li>
@@ -51,7 +49,7 @@ function Navbar() {
               href="#education"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-                EDUCATION
+                FORMATIONS
               </div>
             </a>
           </li>
@@ -61,7 +59,7 @@ function Navbar() {
               href="#projects"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-                PROJECTS
+                PROJETS
               </div>
             </a>
           </li>

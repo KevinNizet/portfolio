@@ -1,4 +1,4 @@
-// @flow strict
+"use client";
 
 import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
@@ -6,6 +6,7 @@ import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
+import Typewriter from "typewriter-effect";
 
 function HeroSection() {
   return (
@@ -21,10 +22,47 @@ function HeroSection() {
       <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8">
         <div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
-            Bonjour, <br />
-            Je suis <span className=" text-pink-500">{personalData.name}</span>
-            {` , développeur web et mobile `}
-            <span className=" text-[#16f2b3]">{personalData.designation}</span>.
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter
+                  .typeString("Bonjour,")
+                  .pauseFor(600)
+                  .typeString("<br />")
+                  .typeString("Je suis ")
+                  .typeString(
+                    '<span class="text-pink-500">' +
+                      personalData.name +
+                      "</span>, "
+                  )
+                  .pauseFor(600)
+                  .typeString("développeur web et mobile ")
+                  .typeString(
+                    '<span class="text-[#16f2b3]">' + "passioné" + "</span>."
+                  )
+                  .pauseFor(600)
+                  .deleteChars(9)
+                  .typeString(
+                    '<span class="text-[#16f2b3]">' + "méthodique" + "</span>."
+                  )
+                  .pauseFor(600)
+                  .deleteChars(11)
+                  .typeString(
+                    '<span class="text-[#16f2b3]">' +
+                      personalData.designation +
+                      "</span>."
+                  )
+                  .pauseFor(600)
+                  .start();
+              }}
+              options={{
+                autoStart: true,
+                loop: false,
+                delay: 50,
+                deleteSpeed: 10,
+                pauseFor: 1500,
+              }}
+              className="text-[#16f2b3]"
+            />
           </h1>
 
           <div className="my-12 flex items-center gap-5">

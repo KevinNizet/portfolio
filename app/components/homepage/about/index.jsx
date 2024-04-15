@@ -25,7 +25,9 @@ function AboutSection() {
           <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">
             Ma disponibilité ?
           </p>
-          <p className="text-gray-200 text-sm lg:text-lg">{personalData.availability}</p>
+          <p className="text-gray-200 text-sm lg:text-lg">
+            {personalData.availability}
+          </p>
         </div>
 
         <div className="flex justify-center order-1 lg:order-2">
@@ -34,7 +36,7 @@ function AboutSection() {
             width={380}
             height={280}
             alt="Kévin Nizet"
-            className="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
+            className="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-105 cursor-pointer"
           />
         </div>
       </div>

@@ -4,4 +4,3 @@ export const contactsData = {
   github: "https://github.com/KevinNizet",
   linkedIn: "https://www.linkedin.com/in/kevinnizet/",
 };
-//TODO: delete useless socials

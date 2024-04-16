@@ -1,12 +1,13 @@
 export const skillsData = [
-  "Javascript",
-  "Typescript",
-  "React",
-  "Next JS",
-  "ViteJS",
   "Flutter",
   "Dart",
   "Firebase",
+  "React",
+  "Javascript",
+  "Typescript",
+  "Next JS",
+  "Node JS",
+  "Vite JS",
   "HTML",
   "CSS",
   "Tailwind",
@@ -15,15 +16,17 @@ export const skillsData = [
   "Graphql",
   "MySQL",
   "PostgreSQL",
+  "Gitlab",
   "Git",
   "Docker",
   "Strapi",
   "Figma",
   "Canva",
   "Wordpress",
+  "Nginx",
 ];
 
-// Pick skills from below. Make sure it's in the same format and spelled correctly.
+// Pick skills from below.
 // All imports are already done in /data/skills.js
 
 // AVAILABLE SKILLS

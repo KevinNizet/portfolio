@@ -55,7 +55,7 @@ function ProjectCard({ project }) {
               rel="noopener noreferrer"
               className="text-orange-400"
             >
-              GitHub Repository
+              GitHub Repository ⬅️
             </a>
             <span className="text-gray-400">,</span>
           </div>
@@ -66,7 +66,9 @@ function ProjectCard({ project }) {
           </div>
           <div className="ml-4 lg:ml-8 mr-2">
             <span className="text-white">specifications:</span>
-            <span className="text-cyan-400">{" " + project.specifications}</span>
+            <span className="text-cyan-400">
+              {" " + project.specifications}
+            </span>
             <span className="text-gray-400">,</span>
           </div>
           <div>

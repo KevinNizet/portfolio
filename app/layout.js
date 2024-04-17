@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <ToastContainer />
         <main className="min-h-screen relative mx-auto px-6 sm:px-12 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem] text-white">
-          {/* Donut cursor */}
+          {/* 
           <AnimatedCursor
             innerSize={8}
             outerSize={20}
@@ -35,14 +35,14 @@ export default function RootLayout({ children }) {
             outerStyle={{
               border: "3px solid white",
             }}
-          />
-          {/*           <AnimatedCursor
+          /> */}
+          <AnimatedCursor
             innerSize={8}
             outerSize={8}
-            color="255, 255, 255" // Changer la couleur du curseur à une couleur claire
+            color="255, 255, 255"
             outerAlpha={0.2}
-            innerScale={0.7}
-            outerScale={5}
+            innerScale={1}
+            outerScale={6}
             clickables={[
               "a",
               'input[type="text"]',
@@ -82,7 +82,7 @@ export default function RootLayout({ children }) {
               ".link": { cursor: "default" },
               ".custom": { cursor: "default" },
             }}
-          /> */}
+          />
 
           <Navbar />
           {children}

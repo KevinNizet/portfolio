@@ -40,14 +40,16 @@ function Experience() {
           </div>
 
           <div>
-            <div className="flex flex-col gap-6">
+            <div className="flex flex-col gap-6" >
               {experiences.map((experience) => (
                 <GlowCard
+                  
                   key={experience.id}
                   identifier={`experience-${experience.id}`}
                 >
                   <div className="p-3 relative">
                     <Image
+                      style={{ cursor: "none" }}
                       src="/blur-23.svg"
                       alt="Hero"
                       width={1080}

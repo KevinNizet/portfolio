@@ -26,7 +26,6 @@ function HeroSection() {
               onInit={(typewriter) => {
                 typewriter
                   .typeString("Bonjour,")
-                  .pauseFor(600)
                   .typeString("<br />")
                   .typeString("Je suis ")
                   .typeString(
@@ -34,7 +33,7 @@ function HeroSection() {
                       personalData.name +
                       "</span>, "
                   )
-                  .pauseFor(600)
+                  .pauseFor(500)
                   .typeString("développeur web et mobile ")
                   .typeString(
                     '<span class="text-[#16f2b3]">' + "passioné" + "</span>."
@@ -42,10 +41,10 @@ function HeroSection() {
                   .pauseFor(600)
                   .deleteChars(9)
                   .typeString(
-                    '<span class="text-[#16f2b3]">' + "méthodique" + "</span>."
+                    '<span class="text-[#16f2b3]">' + "compétent" + "</span>."
                   )
                   .pauseFor(600)
-                  .deleteChars(11)
+                  .deleteChars(10)
                   .typeString(
                     '<span class="text-[#16f2b3]">' +
                       personalData.designation +

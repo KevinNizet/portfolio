@@ -25,7 +25,7 @@ function AboutSection() {
           <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">
             Ma disponibilité ?
           </p>
-          <p className="text-gray-200 text-sm lg:text-lg">
+          <p className="text-gray-200 text-sm lg:text-lg animate-bounce">
             {personalData.availability}
           </p>
         </div>
@@ -37,6 +37,7 @@ function AboutSection() {
             height={280}
             alt="Kévin Nizet"
             className="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-105 cursor-pointer"
+            style={{ cursor: "none" }}
           />
         </div>
       </div>

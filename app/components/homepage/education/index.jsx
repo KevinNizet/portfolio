@@ -53,6 +53,7 @@ function Education() {
                 >
                   <div className="p-3 relative text-white">
                     <Image
+                      style={{ cursor: "none" }}
                       src="/blur-23.svg"
                       alt="Hero"
                       width={1080}

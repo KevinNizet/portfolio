@@ -10,5 +10,5 @@ export const personalData = {
   github: "https://github.com/KevinNizet",
   linkedIn: "https://www.linkedin.com/in/kevinnizet/",
   resume:
-    "https://drive.google.com/file/d/1B-ndm0bN3Q7vIXJgb2EEW18bykVc2u00/view?usp=sharing",
+    "https://drive.google.com/file/d/1qiPinRuMzIPJOwu7MihzzeCZXOOCZGYJ/view?usp=sharing",
 };

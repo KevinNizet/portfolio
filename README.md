@@ -16,11 +16,9 @@ Feel free to explore my projects above and reach out to me for any collaboration
 
 # Demo :movie_camera:
 
-![](./public/image/screen.png)
+![](./public/image/demo.gif)
 
-//TODO: add production link when available
-
-<!-- ## View live preview [here](https://knizet.netlify.app/). -->
+## View live preview [here](https://kevinnizet-portfolio.vercel.app).
 
 ---
 
@@ -39,11 +37,11 @@ Feel free to explore my projects above and reach out to me for any collaboration
 
 - HERO SECTION
 - ABOUT ME
-- EXPERIENCE
+- EXPERIENCES
 - SKILLS
 - PROJECTS
 - EDUCATION
-- CONTACTS
+- CONTACT
 
 ---
 
@@ -65,17 +63,9 @@ git --version
 
 # Getting Started :dart:
 
-### Fork and Clone the repo
-
-To Fork the repo click on the fork button at the top right of the page. Once the repo is forked open your terminal and perform the following commands
-
-```
-git clone https://github.com/<YOUR GITHUB USERNAME>/portfolio.git
-
-cd portfolio
-```
-
 ### Install packages from the root directory
+
+Once you have fork and clone the repo, you should install all the packages.
 
 ```bash
 npm install
@@ -97,7 +87,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 # Usage :joystick:
 
-Goto [emailjs.com](https://www.emailjs.com/) and create a new account for the mail sending. In free trial you will get 200 mail per month. After setup `emailjs` account, Please create a new `.env` file from `.env.example` file.
+On [emailjs.com](https://www.emailjs.com/) you can create a new account for the mail sending. After setup `emailjs` account, you should create a new `.env` file from `.env.example` file.
 
 Eg:
 
@@ -118,6 +108,8 @@ NEXT_PUBLIC_EMAILJS_PUBLIC_KEY =
 |    lottie-react    |
 | react-fast-marquee |
 |    react-icons     |
+|   react-toastify   |
+|  typwriter-effect  |
 |   react-toastify   |
 |        sass        |
 |    tailwindcss     |

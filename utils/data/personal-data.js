@@ -10,6 +10,5 @@ export const personalData = {
   github: "https://github.com/KevinNizet",
   linkedIn: "https://www.linkedin.com/in/kevinnizet/",
   resume:
-    "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing",
+    "https://drive.google.com/file/d/1B-ndm0bN3Q7vIXJgb2EEW18bykVc2u00/view?usp=sharing",
 };
-//TODO: url to be changed and updated CV to be uploaded

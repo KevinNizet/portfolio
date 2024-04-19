@@ -36,7 +36,7 @@ function customTypeWriter() {
       options={{
         autoStart: true,
         loop: false,
-        delay: 50,
+        delay: 40,
         deleteSpeed: 10,
         pauseFor: 1500,
       }}

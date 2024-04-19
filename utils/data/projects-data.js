@@ -53,7 +53,7 @@ export const projectsData = [
   },
   {
     id: 4,
-    type: "Application web de petites annonces",
+    type: "Site web de petites annonces",
     name: "The Good Corner",
     specifications:
       "signup utilisateur, authentification, création d'annonces, affichage conditionnel, pagination, dockerisation du projet",

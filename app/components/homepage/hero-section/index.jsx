@@ -6,7 +6,7 @@ import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
-import Typewriter from "typewriter-effect";
+import CustomTypewriter from "./CustomTypewriter";
 
 function HeroSection() {
   return (
@@ -22,46 +22,7 @@ function HeroSection() {
       <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8">
         <div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
-            <Typewriter
-              onInit={(typewriter) => {
-                typewriter
-                  .typeString("Bonjour,")
-                  .typeString("<br />")
-                  .typeString("Je suis ")
-                  .typeString(
-                    '<span class="text-pink-500">' +
-                      personalData.name +
-                      "</span>, "
-                  )
-                  .pauseFor(500)
-                  .typeString("développeur web et mobile ")
-                  .typeString(
-                    '<span class="text-[#16f2b3]">' + "passioné" + "</span>."
-                  )
-                  .pauseFor(600)
-                  .deleteChars(9)
-                  .typeString(
-                    '<span class="text-[#16f2b3]">' + "compétent" + "</span>."
-                  )
-                  .pauseFor(600)
-                  .deleteChars(10)
-                  .typeString(
-                    '<span class="text-[#16f2b3]">' +
-                      personalData.designation +
-                      "</span>."
-                  )
-                  .pauseFor(600)
-                  .start();
-              }}
-              options={{
-                autoStart: true,
-                loop: false,
-                delay: 50,
-                deleteSpeed: 10,
-                pauseFor: 1500,
-              }}
-              className="text-[#16f2b3]"
-            />
+            <CustomTypewriter />
           </h1>
 
           <div className="my-12 flex items-center gap-5">

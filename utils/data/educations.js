@@ -3,7 +3,7 @@ export const educations = [
     id: 1,
     title: "Diplôme de Concepteur développeur d'Applications",
     duration: "2023 - 2024",
-    level : "Bac + 3",
+    level : "Bac + 4",
     institution: "Wild Code School - Nantes",
   },
   {

@@ -1,7 +1,7 @@
 import React from "react";
 import AnimatedCursor from "react-animated-cursor";
 
-const CustomAnimatedCursor = () => {
+function CustomAnimatedCursor() {
   return (
     <AnimatedCursor
       className="animated-cursor"
@@ -52,6 +52,6 @@ const CustomAnimatedCursor = () => {
       }}
     />
   );
-};
+}
 
 export default CustomAnimatedCursor;

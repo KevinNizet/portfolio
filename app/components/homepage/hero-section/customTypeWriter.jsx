@@ -2,7 +2,7 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 import { personalData } from "@/utils/data/personal-data";
 
-const CustomTypewriter = () => {
+function customTypeWriter() {
   return (
     <Typewriter
       onInit={(typewriter) => {
@@ -43,6 +43,6 @@ const CustomTypewriter = () => {
       className="text-[#16f2b3]"
     />
   );
-};
+}
 
-export default CustomTypewriter;
+export default customTypeWriter;

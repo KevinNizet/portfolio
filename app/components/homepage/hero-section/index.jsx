@@ -6,7 +6,7 @@ import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
-import CustomTypewriter from "./CustomTypewriter";
+import CustomTypeWriter from "./customTypeWriter";
 
 function HeroSection() {
   return (
@@ -23,7 +23,7 @@ function HeroSection() {
         <div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
           <div className="h-[13rem]">
             <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
-              <CustomTypewriter />
+              <CustomTypeWriter />
             </h1>
           </div>
 

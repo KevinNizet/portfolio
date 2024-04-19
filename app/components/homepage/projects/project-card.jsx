@@ -55,7 +55,7 @@ function ProjectCard({ project }) {
               rel="noopener noreferrer"
               className="text-orange-400"
             >
-              GitHub Repository ⬅️
+              Repository GitHub ⬅️
             </a>
             <span className="text-gray-400">,</span>
           </div>

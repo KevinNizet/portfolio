@@ -37,3 +37,11 @@ body {
   // padding-top: calc(var(--index) * 2.5rem);
   top: calc(var(--index) * 4rem);
 }
+
+// disable animated cursor on mobile devices
+
+@media (max-width: 768px) {
+  .animated-cursor {
+    display: none !important;
+  }
+}

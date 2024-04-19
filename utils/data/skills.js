@@ -24,6 +24,7 @@ export const skillsData = [
   "Canva",
   "Wordpress",
   "Nginx",
+  "Markdown",
 ];
 
 // Pick skills from below.

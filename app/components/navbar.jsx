@@ -59,7 +59,7 @@ function Navbar() {
               href="#projects"
             >
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">
-                PROJETS
+                RÉALISATIONS
               </div>
             </a>
           </li>

@@ -18,7 +18,10 @@ function AboutSection() {
             Qui suis-je ?
           </p>
           <p className="text-gray-200 text-sm lg:text-lg">
-            {personalData.description}
+            {personalData.description1}
+          </p>
+          <p className="text-gray-200 text-sm lg:text-lg">
+            {personalData.description2}
           </p>
           <br />
 

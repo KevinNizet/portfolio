@@ -20,7 +20,7 @@ module.exports = {
         },
       },
       animation: {
-        slidein700: "slidein 1s ease 700ms forwards",
+        slidein: "slidein 1s ease var(--slidein-delay, 0) forwards",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

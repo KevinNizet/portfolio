@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function Navbar() {
   return (
-    <nav className="bg-transparent animate-slidein700">
+    <nav className="animate-slidein opacity-0 [--slidein-delay:300ms] ... bg-transparent">
       <div className="flex items-center justify-between py-5">
         <div className="flex flex-shrink-0 items-center">
           <h1 className=" text-[#16f2b3] text-3xl font-bold">Portfolio </h1>

@@ -4,7 +4,7 @@ export const experiences = [
     title: "Développeur d'applications mobiles",
     company: "Général Transmissions",
     localisation: "Les Herbiers (85)",
-    duration: "Septembre. 2023 - Janvier 2025",
+    duration: "Septembre 2023 - Janvier 2025",
   },
   {
     id: 2,

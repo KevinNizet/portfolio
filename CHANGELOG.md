@@ -1,12 +1,5 @@
 # Changelog
 
-<a name="1.1.1"></a>
-## 1.1.1 (2024-05-05)
-
-### Fixed
-
-- 🐛 Fix animatedCursor on mobile devices [[166bff2](https://github.com/KevinNizet/portfolio/commit/166bff2a563045417631e375e3ab0ab0f44959c7)]
-
 <a name="1.1.0"></a>
 ## 1.1.0 (2024-04-22)
 

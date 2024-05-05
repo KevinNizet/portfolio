@@ -1,5 +1,12 @@
 # Changelog
 
+<a name="1.1.1"></a>
+## 1.1.1 (2024-05-05)
+
+### Fixed
+
+- 🐛 Fix animatedCursor on mobile devices [[166bff2](https://github.com/KevinNizet/portfolio/commit/166bff2a563045417631e375e3ab0ab0f44959c7)]
+
 <a name="1.1.0"></a>
 ## 1.1.0 (2024-04-22)
 
@@ -54,5 +61,3 @@
 - 🔐 Set up contact form with emailJs [[3446c2f](https://github.com/KevinNizet/portfolio/commit/3446c2fb4847766cdd6dd42eec33a5e2b97cbf86)]
 - 📝 Update ReadMe.md [[6bebe05](https://github.com/KevinNizet/portfolio/commit/6bebe051f051d87d9314f630d131f3b55b2acafb)]
 - 🎉 Initial commit [[ee884ee](https://github.com/KevinNizet/portfolio/commit/ee884ee48fd3a6b09731cfae30076739f96ec9f1)]
-
-

@@ -1,20 +1,6 @@
 export const projectsData = [
   {
     id: 1,
-    type: "Site vitrine statique",
-    name: "Espace de coworking",
-    specifications:
-      "maquettage sur Figma, réflexion UX/UI, design responsive, sprint d'une semaine, hébergement du code sur GitHub",
-    description:
-      "réalisation d'un site vitrine pour un client souhaitant faire la promotion de son espace de coworking",
-    stack: ["HTML", "CSS", "JavaScript"],
-    link: "https://github.com/KevinNizet/Coworking-Space",
-    code: "",
-    demo: "",
-    image: "",
-  },
-  {
-    id: 2,
     type: "Application web dynamique",
     name: "Let's Go !",
     specifications:
@@ -28,7 +14,7 @@ export const projectsData = [
     image: "",
   },
   {
-    id: 3,
+    id: 2,
     type: "Application web administrable",
     name: "Inovin",
     specifications:
@@ -52,7 +38,7 @@ export const projectsData = [
     image: "",
   },
   {
-    id: 4,
+    id: 3,
     type: "Site web de petites annonces",
     name: "The Good Corner",
     specifications:
@@ -73,6 +59,31 @@ export const projectsData = [
     demo: "",
     image: "",
     link: "https://github.com/KevinNizet/the-good-corner",
+  },
+  {
+    id: 4,
+    type: "Plateforme de défis écologiques",
+    name: "GreenQuest",
+    specifications:
+      "signup, signin, classement d'utilisateurs, CI/CD, dockerisation, cron, notification par mail, upload de fichiers",
+    description:
+      "une plateforme web permettant à des groupes d'utilisateurs de réaliser ensemble des challenges écologiques",
+    stack: [
+      "React",
+      "JavaScript",
+      "TypeScript",
+      "NextJs",
+      "GraphQL",
+      "PostgreSQL",
+      "TypeORM",
+      "Apollo",
+      "Docker",
+      "MaterialUI",
+    ],
+    link: "https://github.com/KevinNizet/GreenQuest",
+    code: "",
+    demo: "",
+    image: "",
   },
   {
     id: 5,

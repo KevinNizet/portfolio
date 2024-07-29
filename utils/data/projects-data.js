@@ -42,7 +42,7 @@ export const projectsData = [
     type: "Site web de petites annonces",
     name: "The Good Corner",
     specifications:
-      "signup utilisateur, authentification, création d'annonces, affichage conditionnel, pagination, dockerisation du projet",
+      "inscription, authentification, création d'annonces, affichage conditionnel, pagination, dockerisation du projet",
     description: "réalisation d'un clone du site Leboncoin",
     stack: [
       "React",
@@ -65,7 +65,7 @@ export const projectsData = [
     type: "Plateforme de défis écologiques",
     name: "GreenQuest",
     specifications:
-      "signup, signin, classement d'utilisateurs, CI/CD, dockerisation, cron, notification par mail, upload de fichiers",
+      "inscription, authentification, vérification de compte par mail, réinitialisation de mot de passe, classement d'utilisateurs, upload de fichiers,  pipelines CI/CD, dockerisation, cron",
     description:
       "une plateforme web permettant à des groupes d'utilisateurs de réaliser ensemble des challenges écologiques",
     stack: [
